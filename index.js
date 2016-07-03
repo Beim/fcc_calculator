@@ -25,7 +25,7 @@ let total = rcc({
                 let output = this.state.output
                 output = eval(input)
                 this.setState({
-                    input: '',
+                    input: output,
                     output: output,
                     display: 'output'
                 })    
